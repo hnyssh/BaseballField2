@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB6995A1F90260E00E93F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB699591F90260E00E93F73 /* AppDelegate.swift */; };
+		DDB6995C1F90260E00E93F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6995B1F90260E00E93F73 /* ViewController.swift */; };
+		DDB6995F1F90260E00E93F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB6995D1F90260E00E93F73 /* Main.storyboard */; };
+		DDB699611F90260E00E93F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB699601F90260E00E93F73 /* Assets.xcassets */; };
+		DDB699641F90260E00E93F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB699621F90260E00E93F73 /* LaunchScreen.storyboard */; };
+		DDB6996F1F90260E00E93F73 /* BaseballField2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB6996E1F90260E00E93F73 /* BaseballField2Tests.swift */; };
+		DDB6997A1F90260F00E93F73 /* BaseballField2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB699791F90260F00E93F73 /* BaseballField2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB6996B1F90260E00E93F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB6994E1F90260E00E93F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB699551F90260E00E93F73;
+			remoteInfo = BaseballField2;
+		};
+		DDB699761F90260E00E93F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB6994E1F90260E00E93F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB699551F90260E00E93F73;
+			remoteInfo = BaseballField2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB699561F90260E00E93F73 /* BaseballField2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseballField2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB699591F90260E00E93F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB6995B1F90260E00E93F73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB6995E1F90260E00E93F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB699601F90260E00E93F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB699631F90260E00E93F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB699651F90260E00E93F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB6996A1F90260E00E93F73 /* BaseballField2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballField2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB6996E1F90260E00E93F73 /* BaseballField2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballField2Tests.swift; sourceTree = "<group>"; };
+		DDB699701F90260E00E93F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB699751F90260E00E93F73 /* BaseballField2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseballField2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB699791F90260F00E93F73 /* BaseballField2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballField2UITests.swift; sourceTree = "<group>"; };
+		DDB6997B1F90260F00E93F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB699531F90260E00E93F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699671F90260E00E93F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699721F90260E00E93F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB6994D1F90260E00E93F73 = {
+			isa = PBXGroup;
+			children = (
+				DDB699581F90260E00E93F73 /* BaseballField2 */,
+				DDB6996D1F90260E00E93F73 /* BaseballField2Tests */,
+				DDB699781F90260F00E93F73 /* BaseballField2UITests */,
+				DDB699571F90260E00E93F73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB699571F90260E00E93F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB699561F90260E00E93F73 /* BaseballField2.app */,
+				DDB6996A1F90260E00E93F73 /* BaseballField2Tests.xctest */,
+				DDB699751F90260E00E93F73 /* BaseballField2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB699581F90260E00E93F73 /* BaseballField2 */ = {
+			isa = PBXGroup;
+			children = (
+				DDB699591F90260E00E93F73 /* AppDelegate.swift */,
+				DDB6995B1F90260E00E93F73 /* ViewController.swift */,
+				DDB6995D1F90260E00E93F73 /* Main.storyboard */,
+				DDB699601F90260E00E93F73 /* Assets.xcassets */,
+				DDB699621F90260E00E93F73 /* LaunchScreen.storyboard */,
+				DDB699651F90260E00E93F73 /* Info.plist */,
+			);
+			path = BaseballField2;
+			sourceTree = "<group>";
+		};
+		DDB6996D1F90260E00E93F73 /* BaseballField2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB6996E1F90260E00E93F73 /* BaseballField2Tests.swift */,
+				DDB699701F90260E00E93F73 /* Info.plist */,
+			);
+			path = BaseballField2Tests;
+			sourceTree = "<group>";
+		};
+		DDB699781F90260F00E93F73 /* BaseballField2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB699791F90260F00E93F73 /* BaseballField2UITests.swift */,
+				DDB6997B1F90260F00E93F73 /* Info.plist */,
+			);
+			path = BaseballField2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB699551F90260E00E93F73 /* BaseballField2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB6997E1F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2" */;
+			buildPhases = (
+				DDB699521F90260E00E93F73 /* Sources */,
+				DDB699531F90260E00E93F73 /* Frameworks */,
+				DDB699541F90260E00E93F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseballField2;
+			productName = BaseballField2;
+			productReference = DDB699561F90260E00E93F73 /* BaseballField2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB699691F90260E00E93F73 /* BaseballField2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB699811F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2Tests" */;
+			buildPhases = (
+				DDB699661F90260E00E93F73 /* Sources */,
+				DDB699671F90260E00E93F73 /* Frameworks */,
+				DDB699681F90260E00E93F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB6996C1F90260E00E93F73 /* PBXTargetDependency */,
+			);
+			name = BaseballField2Tests;
+			productName = BaseballField2Tests;
+			productReference = DDB6996A1F90260E00E93F73 /* BaseballField2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDB699741F90260E00E93F73 /* BaseballField2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB699841F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2UITests" */;
+			buildPhases = (
+				DDB699711F90260E00E93F73 /* Sources */,
+				DDB699721F90260E00E93F73 /* Frameworks */,
+				DDB699731F90260E00E93F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB699771F90260E00E93F73 /* PBXTargetDependency */,
+			);
+			name = BaseballField2UITests;
+			productName = BaseballField2UITests;
+			productReference = DDB699751F90260E00E93F73 /* BaseballField2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB6994E1F90260E00E93F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "ironwill ltd.";
+				TargetAttributes = {
+					DDB699551F90260E00E93F73 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DDB699691F90260E00E93F73 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDB699551F90260E00E93F73;
+					};
+					DDB699741F90260E00E93F73 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDB699551F90260E00E93F73;
+					};
+				};
+			};
+			buildConfigurationList = DDB699511F90260E00E93F73 /* Build configuration list for PBXProject "BaseballField2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB6994D1F90260E00E93F73;
+			productRefGroup = DDB699571F90260E00E93F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB699551F90260E00E93F73 /* BaseballField2 */,
+				DDB699691F90260E00E93F73 /* BaseballField2Tests */,
+				DDB699741F90260E00E93F73 /* BaseballField2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB699541F90260E00E93F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB699641F90260E00E93F73 /* LaunchScreen.storyboard in Resources */,
+				DDB699611F90260E00E93F73 /* Assets.xcassets in Resources */,
+				DDB6995F1F90260E00E93F73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699681F90260E00E93F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699731F90260E00E93F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB699521F90260E00E93F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6995C1F90260E00E93F73 /* ViewController.swift in Sources */,
+				DDB6995A1F90260E00E93F73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699661F90260E00E93F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6996F1F90260E00E93F73 /* BaseballField2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB699711F90260E00E93F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6997A1F90260F00E93F73 /* BaseballField2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB6996C1F90260E00E93F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB699551F90260E00E93F73 /* BaseballField2 */;
+			targetProxy = DDB6996B1F90260E00E93F73 /* PBXContainerItemProxy */;
+		};
+		DDB699771F90260E00E93F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB699551F90260E00E93F73 /* BaseballField2 */;
+			targetProxy = DDB699761F90260E00E93F73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB6995D1F90260E00E93F73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB6995E1F90260E00E93F73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB699621F90260E00E93F73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB699631F90260E00E93F73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB6997C1F90260F00E93F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB6997D1F90260F00E93F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB6997F1F90260F00E93F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB699801F90260F00E93F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDB699821F90260F00E93F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballField2.app/BaseballField2";
+			};
+			name = Debug;
+		};
+		DDB699831F90260F00E93F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseballField2.app/BaseballField2";
+			};
+			name = Release;
+		};
+		DDB699851F90260F00E93F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaseballField2;
+			};
+			name = Debug;
+		};
+		DDB699861F90260F00E93F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLQ82WMUE6;
+				INFOPLIST_FILE = BaseballField2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ironwill.BaseballField2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaseballField2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB699511F90260E00E93F73 /* Build configuration list for PBXProject "BaseballField2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6997C1F90260F00E93F73 /* Debug */,
+				DDB6997D1F90260F00E93F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB6997E1F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB6997F1F90260F00E93F73 /* Debug */,
+				DDB699801F90260F00E93F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB699811F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB699821F90260F00E93F73 /* Debug */,
+				DDB699831F90260F00E93F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB699841F90260F00E93F73 /* Build configuration list for PBXNativeTarget "BaseballField2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB699851F90260F00E93F73 /* Debug */,
+				DDB699861F90260F00E93F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB6994E1F90260E00E93F73 /* Project object */;
+}
